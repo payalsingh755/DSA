@@ -1,5 +1,5 @@
 #include<iostream>
-#using namespace std;
+using namespace std;
 int reve(int n){
 	int rev=0;
 	while (n!=0){
@@ -24,9 +24,9 @@ int len(int n){
 		int l=len(n);
 		while(n!=0){
 			int k=n%10;
-			int rev=9-k;
-			if(l--1 and k==9){
-				rev=rev*10=k;
+			int inv=9-k;
+			if(l==1 and k==9){
+				rev=rev*10+k;
 				l--;
 			}
 			if(inv<k){
@@ -39,6 +39,6 @@ int len(int n){
 			}
 			n=n/10;
 		}
-		cout<<rev(rev)/10<<endl;
+		cout<<reve(rev)/10<<endl;
 		return 0;
 	}
