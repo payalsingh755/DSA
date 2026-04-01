@@ -1,1 +1,0 @@
-//3 question are done on pattern on hacker blocks

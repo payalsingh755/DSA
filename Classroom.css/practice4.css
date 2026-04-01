@@ -1,0 +1,46 @@
+*{
+   padding: 0;
+   margin: 0;
+   color: white;
+  padding:10px;
+
+}
+#navbar{
+    height: 60px;
+      border: 2px solid white;
+    background-color: black;
+    width: 1400;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 180px;
+}
+body{
+    border: 2px solid white;
+}
+
+.contentBox{
+    border: 1px solid rgba(0,0,0,0.5);
+    height: 50px;
+    width: 50px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(32, 11, 11, 0.5);
+    display:inline-block;
+}
+footer{
+    height: 25px;
+    width: 1500px;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    background-color: black;
+    
+}
+#content{
+    height: 500px;
+}
