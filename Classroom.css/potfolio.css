@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header & Footer */
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navbar */
+nav {
+    background-color: gray;
+    padding: 10px;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+}
+
+/* Box */
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Highlight text */
+.highlight {
+    color: red;
+}
+
+/* Table */
+table {
+    margin-top: 10px;
+}
+
+/* Form */
+input, textarea, select {
+    margin: 5px 0;
+    padding: 5px;
+}
