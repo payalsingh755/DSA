@@ -6,20 +6,21 @@
 
 }
 #navbar{
-    height: 60px;
+    height: 50px;
       border: 2px solid white;
     background-color: black;
-    width: 1400;
+    width: 1200;
 }
 button{
     background-color: #f08804;
+
 }
 #logo{
     color: #f08804;
     font-size: 25px;
 }
 a{
-    margin-right: 180px;
+    margin-right: 173px;
 }
 body{
     border: 2px solid white;
