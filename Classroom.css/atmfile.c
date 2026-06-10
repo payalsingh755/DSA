@@ -8,20 +8,20 @@ int main(){
     if(pin1==pin2){
         printf("\n Welcome \n Please choose The option");
         printf("\n 1 For Balance CHeck");
-        printf("\n 2 for Credit amt"); //nikalana
-        printf("\n 3 for Debit amt\n"); //amt dalna
+        printf("\n 2 for Credit amt"); //amount dalna
+        printf("\n 3 for Debit amt\n"); //amt nikalna
         scanf("%d",&no);
         switch (no)
         {
         case 1:{
-            printf("\n Please Check you Amaunt is : %d");
+            printf("\n Please Check you Amaunt is : %d",amt);
             break;
         }
         case 2:{
-            printf("\nPlease credit your Amaunt is : %d");
+            printf("\nPlease credit your Amaunt is :");
             scanf("%d",&c);
             amt=amt+c;
-            printf("\n Now your Balance");
+            printf("\n Now your Balance=%d",amt);
             break;
         }
         case 3:{
@@ -29,7 +29,7 @@ int main(){
             scanf("%d",&d);
             if(d<=amt){
                 amt=amt-d;
-                printf("\n Please Check you Amaunt is : %d : ");
+                printf("\n Please Check you Amaunt is : %d ",amt);
             }
             else{
             printf("\n Now your balance :");
