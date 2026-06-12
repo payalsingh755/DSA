@@ -16,7 +16,7 @@ int main(){
         printf("\n\nwe now that faculty sellary = %d",faculty);
        electricity=faculty-elec;
         printf("\n\nwe now that Electricity bill = %d",electricity);
-       per=electricity / roomrant;
+       per=electricity/roomrant;
  printf("\n\nper person=%d",per);
     return 1;
 }
