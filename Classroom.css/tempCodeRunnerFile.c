@@ -1,4 +1,3 @@
- printf("Enter the Value of X : ");
-    scanf("%d",&x);
-    printf("Enter the Value of Y : ");
-    scanf("%d",&y);
+"Char = %c\n", o.ch);
+    //  printf("Float = %f\n", o.f);
+    //  printf(
