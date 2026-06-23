@@ -15,4 +15,5 @@ int main(){
     no = fun(x,y);
     printf("\n Sum of X and Y = %d",no);
     return 0;
+    
 }

@@ -29,7 +29,7 @@ int main() {
         if (str[i] == '\0')
             break;
     }
-    
+
     printf("Longest word = %s\n", longest);
     printf("Length = %d\n", maxLen);
 
